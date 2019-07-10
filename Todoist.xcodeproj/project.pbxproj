@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		6106211C22C732C1000E3AD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6106211B22C732C1000E3AD3 /* AppDelegate.swift */; };
-		6106211E22C732C1000E3AD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6106211D22C732C1000E3AD3 /* ViewController.swift */; };
+		6106211E22C732C1000E3AD3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6106211D22C732C1000E3AD3 /* BaseViewController.swift */; };
 		6106212122C732C1000E3AD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6106211F22C732C1000E3AD3 /* Main.storyboard */; };
 		6106212322C732C1000E3AD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6106212222C732C1000E3AD3 /* Assets.xcassets */; };
 		6106212622C732C1000E3AD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6106212422C732C1000E3AD3 /* LaunchScreen.storyboard */; };
+		61F955C122D05B9E00D22F10 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F955C022D05B9E00D22F10 /* CustomTableViewCell.swift */; };
+		61F955C522D0732B00D22F10 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F955C422D0732B00D22F10 /* AddTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6106211822C732C1000E3AD3 /* Todoist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6106211B22C732C1000E3AD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6106211D22C732C1000E3AD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6106211D22C732C1000E3AD3 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		6106212022C732C1000E3AD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6106212222C732C1000E3AD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6106212522C732C1000E3AD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6106212722C732C1000E3AD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F955C022D05B9E00D22F10 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		61F955C422D0732B00D22F10 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				6106211B22C732C1000E3AD3 /* AppDelegate.swift */,
-				6106211D22C732C1000E3AD3 /* ViewController.swift */,
+				6106211D22C732C1000E3AD3 /* BaseViewController.swift */,
 				6106211F22C732C1000E3AD3 /* Main.storyboard */,
+				61F955C022D05B9E00D22F10 /* CustomTableViewCell.swift */,
+				61F955C422D0732B00D22F10 /* AddTaskViewController.swift */,
 				6106212222C732C1000E3AD3 /* Assets.xcassets */,
 				6106212422C732C1000E3AD3 /* LaunchScreen.storyboard */,
 				6106212722C732C1000E3AD3 /* Info.plist */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6106211E22C732C1000E3AD3 /* ViewController.swift in Sources */,
+				61F955C122D05B9E00D22F10 /* CustomTableViewCell.swift in Sources */,
+				61F955C522D0732B00D22F10 /* AddTaskViewController.swift in Sources */,
+				6106211E22C732C1000E3AD3 /* BaseViewController.swift in Sources */,
 				6106211C22C732C1000E3AD3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
